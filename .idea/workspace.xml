@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c1d2c30-ea9b-4625-b0ad-9f978bdecf9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/accup.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Data Description.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/diet.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/recipes.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/requests.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/reviews.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/submission_random.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataPreprocessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="2c1d2c30-ea9b-4625-b0ad-9f978bdecf9b" name="Changes" comment="setup">
+      <change afterPath="$PROJECT_DIR$/dietPreprocessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipePreprocessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requestsPreprocessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviewPreprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataPreprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataPreprocessing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2bDIM4etIMDKH7I9Zn0r6ZnwChW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,9 +38,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.dataPreprocessing.executor": "Run",
+    "Python.dietPreprocessing.executor": "Run",
+    "Python.recipePreprocessing.executor": "Run",
+    "Python.requestsPreprocessing.executor": "Run",
+    "Python.reviewPreprocessing.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,11 +75,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705743173530</updated>
-      <workItem from="1705743180458" duration="735000" />
+      <workItem from="1705743180458" duration="1849000" />
+      <workItem from="1705745249473" duration="5478000" />
     </task>
+    <task id="LOCAL-00001" summary="setup">
+      <option name="closed" value="true" />
+      <created>1705744174404</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705744174404</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/accup$requestsPreprocessing.coverage" NAME="requestsPreprocessing Coverage Results" MODIFIED="1705749918551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/accup$reviewPreprocessing.coverage" NAME="reviewPreprocessing Coverage Results" MODIFIED="1705749923451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/accup$recipePreprocessing.coverage" NAME="recipePreprocessing Coverage Results" MODIFIED="1705749907034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/accup$dietPreprocessing.coverage" NAME="dietPreprocessing Coverage Results" MODIFIED="1705749902326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/accup$dataPreprocessing.coverage" NAME="dataPreprocessing Coverage Results" MODIFIED="1705750748050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
