@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c1d2c30-ea9b-4625-b0ad-9f978bdecf9b" name="Changes" comment="setup">
-      <change afterPath="$PROJECT_DIR$/dietPreprocessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recipePreprocessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requestsPreprocessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reviewPreprocessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/parameterOptimization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/script_S2cig3_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/validate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataPreprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataPreprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +40,12 @@
   "keyToString": {
     "Python.dataPreprocessing.executor": "Run",
     "Python.dietPreprocessing.executor": "Run",
+    "Python.parameterOptimization.executor": "Run",
     "Python.recipePreprocessing.executor": "Run",
     "Python.requestsPreprocessing.executor": "Run",
     "Python.reviewPreprocessing.executor": "Run",
+    "Python.script_S2cig3_3.executor": "Run",
+    "Python.validate.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -77,6 +80,8 @@
       <updated>1705743173530</updated>
       <workItem from="1705743180458" duration="1849000" />
       <workItem from="1705745249473" duration="5478000" />
+      <workItem from="1706031294559" duration="1950000" />
+      <workItem from="1706035539805" duration="8138000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <option name="closed" value="true" />
@@ -97,10 +102,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="setup" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/accup$dietPreprocessing.coverage" NAME="dietPreprocessing Coverage Results" MODIFIED="1705749902326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/accup$parameterOptimization.coverage" NAME="parameterOptimization Coverage Results" MODIFIED="1706033021767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/accup$script_S2cig3_3.coverage" NAME="script_S2cig3_3 Coverage Results" MODIFIED="1706043942377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/accup$requestsPreprocessing.coverage" NAME="requestsPreprocessing Coverage Results" MODIFIED="1705749918551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/accup$reviewPreprocessing.coverage" NAME="reviewPreprocessing Coverage Results" MODIFIED="1705749923451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/accup$validate.coverage" NAME="validate Coverage Results" MODIFIED="1706041717677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/accup$recipePreprocessing.coverage" NAME="recipePreprocessing Coverage Results" MODIFIED="1705749907034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/accup$dietPreprocessing.coverage" NAME="dietPreprocessing Coverage Results" MODIFIED="1705749902326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/accup$dataPreprocessing.coverage" NAME="dataPreprocessing Coverage Results" MODIFIED="1705750748050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

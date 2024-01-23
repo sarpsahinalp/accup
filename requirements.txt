@@ -8,3 +8,4 @@ scipy
 notebook
 jupyter
 statsmodels
+imblearn
